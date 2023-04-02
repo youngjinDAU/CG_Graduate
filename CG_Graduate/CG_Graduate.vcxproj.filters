@@ -27,6 +27,24 @@
     <Filter Include="Source Files\QGLViewer">
       <UniqueIdentifier>{ff8733f7-ac86-4dda-bb9d-992cc94515d6}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\pmp">
+      <UniqueIdentifier>{27f17f60-42b6-4033-8b07-1a5053b2bf88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\pmp">
+      <UniqueIdentifier>{6cbd22b6-b5a9-4fdd-8743-b89ba291e629}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\pmp\algorithms">
+      <UniqueIdentifier>{108ad3a0-db89-424c-a61d-38ffb5c9f8da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\pmp\io">
+      <UniqueIdentifier>{6d970790-9cd4-4df7-8e88-cb0c0983e79a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\pmp\algorithms">
+      <UniqueIdentifier>{ca47d923-8ab8-49fa-a986-e0e348cca1b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\pmp\io">
+      <UniqueIdentifier>{119fc27d-fa6e-43ae-b89a-32bf68e32e68}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <QtRcc Include="CG_Graduate.qrc">
@@ -52,6 +70,87 @@
     <ClCompile Include="src\QGLViewer\qglviewerortho.cpp">
       <Filter>Source Files\QGLViewer</Filter>
     </ClCompile>
+    <ClCompile Include="src\pmp\SurfaceMesh.cpp">
+      <Filter>Source Files\pmp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pmp\utilities.cpp">
+      <Filter>Source Files\pmp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pmp\algorithms\DistancePointTriangle.cpp">
+      <Filter>Source Files\pmp\algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pmp\algorithms\Fairing.cpp">
+      <Filter>Source Files\pmp\algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pmp\algorithms\Features.cpp">
+      <Filter>Source Files\pmp\algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pmp\algorithms\Geodesics.cpp">
+      <Filter>Source Files\pmp\algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pmp\algorithms\HoleFilling.cpp">
+      <Filter>Source Files\pmp\algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pmp\algorithms\Normals.cpp">
+      <Filter>Source Files\pmp\algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pmp\algorithms\Parameterization.cpp">
+      <Filter>Source Files\pmp\algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pmp\algorithms\Remeshing.cpp">
+      <Filter>Source Files\pmp\algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pmp\algorithms\Shapes.cpp">
+      <Filter>Source Files\pmp\algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pmp\algorithms\Smoothing.cpp">
+      <Filter>Source Files\pmp\algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pmp\algorithms\Subdivision.cpp">
+      <Filter>Source Files\pmp\algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pmp\algorithms\TriangleKdTree.cpp">
+      <Filter>Source Files\pmp\algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pmp\algorithms\Triangulation.cpp">
+      <Filter>Source Files\pmp\algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pmp\algorithms\Curvature.cpp">
+      <Filter>Source Files\pmp\algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pmp\algorithms\Decimation.cpp">
+      <Filter>Source Files\pmp\algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pmp\algorithms\DifferentialGeometry.cpp">
+      <Filter>Source Files\pmp\algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pmp\io\read_pmp.cpp">
+      <Filter>Source Files\pmp\io</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pmp\io\read_stl.cpp">
+      <Filter>Source Files\pmp\io</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pmp\io\write_obj.cpp">
+      <Filter>Source Files\pmp\io</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pmp\io\write_off.cpp">
+      <Filter>Source Files\pmp\io</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pmp\io\write_pmp.cpp">
+      <Filter>Source Files\pmp\io</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pmp\io\write_stl.cpp">
+      <Filter>Source Files\pmp\io</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pmp\io\io.cpp">
+      <Filter>Source Files\pmp\io</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pmp\io\read_obj.cpp">
+      <Filter>Source Files\pmp\io</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pmp\io\read_off.cpp">
+      <Filter>Source Files\pmp\io</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="src\CG_Graduate.h">
@@ -67,6 +166,126 @@
   <ItemGroup>
     <ClInclude Include="src\DrawComponent.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\pmp\Timer.h">
+      <Filter>Header Files\pmp</Filter>
+    </ClInclude>
+    <ClInclude Include="src\pmp\Types.h">
+      <Filter>Header Files\pmp</Filter>
+    </ClInclude>
+    <ClInclude Include="src\pmp\utilities.h">
+      <Filter>Header Files\pmp</Filter>
+    </ClInclude>
+    <ClInclude Include="src\pmp\BoundingBox.h">
+      <Filter>Header Files\pmp</Filter>
+    </ClInclude>
+    <ClInclude Include="src\pmp\Exceptions.h">
+      <Filter>Header Files\pmp</Filter>
+    </ClInclude>
+    <ClInclude Include="src\pmp\MatVec.h">
+      <Filter>Header Files\pmp</Filter>
+    </ClInclude>
+    <ClInclude Include="src\pmp\MemoryUsage.h">
+      <Filter>Header Files\pmp</Filter>
+    </ClInclude>
+    <ClInclude Include="src\pmp\Properties.h">
+      <Filter>Header Files\pmp</Filter>
+    </ClInclude>
+    <ClInclude Include="src\pmp\SurfaceMesh.h">
+      <Filter>Header Files\pmp</Filter>
+    </ClInclude>
+    <ClInclude Include="src\pmp\algorithms\Quadric.h">
+      <Filter>Header Files\pmp\algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="src\pmp\algorithms\Remeshing.h">
+      <Filter>Header Files\pmp\algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="src\pmp\algorithms\Shapes.h">
+      <Filter>Header Files\pmp\algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="src\pmp\algorithms\Smoothing.h">
+      <Filter>Header Files\pmp\algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="src\pmp\algorithms\Subdivision.h">
+      <Filter>Header Files\pmp\algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="src\pmp\algorithms\TriangleKdTree.h">
+      <Filter>Header Files\pmp\algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="src\pmp\algorithms\Triangulation.h">
+      <Filter>Header Files\pmp\algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="src\pmp\algorithms\BarycentricCoordinates.h">
+      <Filter>Header Files\pmp\algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="src\pmp\algorithms\Curvature.h">
+      <Filter>Header Files\pmp\algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="src\pmp\algorithms\Decimation.h">
+      <Filter>Header Files\pmp\algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="src\pmp\algorithms\DifferentialGeometry.h">
+      <Filter>Header Files\pmp\algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="src\pmp\algorithms\DistancePointTriangle.h">
+      <Filter>Header Files\pmp\algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="src\pmp\algorithms\Fairing.h">
+      <Filter>Header Files\pmp\algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="src\pmp\algorithms\Features.h">
+      <Filter>Header Files\pmp\algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="src\pmp\algorithms\Geodesics.h">
+      <Filter>Header Files\pmp\algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="src\pmp\algorithms\Heap.h">
+      <Filter>Header Files\pmp\algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="src\pmp\algorithms\HoleFilling.h">
+      <Filter>Header Files\pmp\algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="src\pmp\algorithms\NormalCone.h">
+      <Filter>Header Files\pmp\algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="src\pmp\algorithms\Normals.h">
+      <Filter>Header Files\pmp\algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="src\pmp\algorithms\Parameterization.h">
+      <Filter>Header Files\pmp\algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="src\pmp\io\read_off.h">
+      <Filter>Header Files\pmp\io</Filter>
+    </ClInclude>
+    <ClInclude Include="src\pmp\io\read_pmp.h">
+      <Filter>Header Files\pmp\io</Filter>
+    </ClInclude>
+    <ClInclude Include="src\pmp\io\read_stl.h">
+      <Filter>Header Files\pmp\io</Filter>
+    </ClInclude>
+    <ClInclude Include="src\pmp\io\write_obj.h">
+      <Filter>Header Files\pmp\io</Filter>
+    </ClInclude>
+    <ClInclude Include="src\pmp\io\write_off.h">
+      <Filter>Header Files\pmp\io</Filter>
+    </ClInclude>
+    <ClInclude Include="src\pmp\io\write_pmp.h">
+      <Filter>Header Files\pmp\io</Filter>
+    </ClInclude>
+    <ClInclude Include="src\pmp\io\write_stl.h">
+      <Filter>Header Files\pmp\io</Filter>
+    </ClInclude>
+    <ClInclude Include="src\pmp\io\helpers.h">
+      <Filter>Header Files\pmp\io</Filter>
+    </ClInclude>
+    <ClInclude Include="src\pmp\io\io.h">
+      <Filter>Header Files\pmp\io</Filter>
+    </ClInclude>
+    <ClInclude Include="src\pmp\io\IOFlags.h">
+      <Filter>Header Files\pmp\io</Filter>
+    </ClInclude>
+    <ClInclude Include="src\pmp\io\read_obj.h">
+      <Filter>Header Files\pmp\io</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
